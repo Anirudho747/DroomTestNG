@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44158" started-at="2020-09-30T15:41:01 IST" finished-at="2020-09-30T15:41:46 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44158" started-at="2020-09-30T15:41:01 IST" finished-at="2020-09-30T15:41:46 IST">
+      <class name="testCases.CheckOutCycle">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testCases.CheckOutCycle@1786dec2]" name="setUp" is-config="true" duration-ms="5901" started-at="2020-09-30T15:41:01 IST" finished-at="2020-09-30T15:41:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="googleDroom()[pri:1, instance:testCases.CheckOutCycle@1786dec2]" name="googleDroom" duration-ms="3805" started-at="2020-09-30T15:41:07 IST" finished-at="2020-09-30T15:41:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleDroom -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:testCases.CheckOutCycle@1786dec2]" name="tearDownMethod" is-config="true" duration-ms="1738" started-at="2020-09-30T15:41:11 IST" finished-at="2020-09-30T15:41:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=googleDroom status=SUCCESS method=CheckOutCycle.googleDroom()[pri:1, instance:testCases.CheckOutCycle@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="moveToCycles()[pri:2, instance:testCases.CheckOutCycle@1786dec2]" name="moveToCycles" duration-ms="6583" started-at="2020-09-30T15:41:13 IST" depends-on-methods="testCases.CheckOutCycle.googleDroom" finished-at="2020-09-30T15:41:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToCycles -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:testCases.CheckOutCycle@1786dec2]" name="tearDownMethod" is-config="true" duration-ms="1562" started-at="2020-09-30T15:41:20 IST" finished-at="2020-09-30T15:41:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=moveToCycles status=SUCCESS method=CheckOutCycle.moveToCycles()[pri:2, instance:testCases.CheckOutCycle@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="selectCycle()[pri:0, instance:testCases.CheckOutCycle@1786dec2]" name="selectCycle" duration-ms="4206" started-at="2020-09-30T15:41:21 IST" depends-on-methods="testCases.CheckOutCycle.moveToCycles" finished-at="2020-09-30T15:41:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCycle -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:testCases.CheckOutCycle@1786dec2]" name="tearDownMethod" is-config="true" duration-ms="2868" started-at="2020-09-30T15:41:25 IST" finished-at="2020-09-30T15:41:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectCycle status=SUCCESS method=CheckOutCycle.selectCycle()[pri:0, instance:testCases.CheckOutCycle@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="checkOutCycle()[pri:0, instance:testCases.CheckOutCycle@1786dec2]" name="checkOutCycle" duration-ms="15084" started-at="2020-09-30T15:41:28 IST" depends-on-methods="testCases.CheckOutCycle.selectCycle" finished-at="2020-09-30T15:41:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutCycle -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:testCases.CheckOutCycle@1786dec2]" name="tearDownMethod" is-config="true" duration-ms="1333" started-at="2020-09-30T15:41:43 IST" finished-at="2020-09-30T15:41:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkOutCycle status=SUCCESS method=CheckOutCycle.checkOutCycle()[pri:0, instance:testCases.CheckOutCycle@1786dec2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testCases.CheckOutCycle@1786dec2]" name="tearDownClass" is-config="true" duration-ms="1026" started-at="2020-09-30T15:41:45 IST" finished-at="2020-09-30T15:41:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testCases.CheckOutCycle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
